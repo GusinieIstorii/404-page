@@ -1,0 +1,48 @@
+body, h1, h2, h3, h4, p, a {
+  color: #2f80ed;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-size: normal;
+  text-align: center;
+}
+*{
+  box-sizing: border-box;
+}
+main{
+  height: 730px;
+}
+img {
+  width: 520px;
+  height: 190px;
+  display: block;
+  margin: 110px auto 10px auto;
+}
+.maintext{
+  width: 420px;
+  font-size: 120px;
+  margin-top: 10px;
+  font-weight: normal;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 22px;
+}
+.hovertext{
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+  transition: color 0.5s linear;
+}
+.maintext:hover ~ .hovertext{
+  color: #2f80ed;
+  transition: color 0.1s linear;
+}
+
+.bottom-text{
+  padding-bottom: 30px;
+  font-size: 17px;
+  font-weight: normal;
+}
